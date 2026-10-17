@@ -1,0 +1,281 @@
+[
+  {
+    "icon": "cbi_buttona",
+    "texture": "764ca48fb74cbdbe",
+    "glyph": "cross",
+    "width": 45,
+    "height": 45,
+    "bgraFingerprint": "5e12dfd53b026e4d",
+    "rgbaFingerprint": "12bb237471201895"
+  },
+  {
+    "icon": "cbi_buttonb",
+    "texture": "09924e5cb0a27e06",
+    "glyph": "circle",
+    "width": 45,
+    "height": 45,
+    "bgraFingerprint": "d16ab1e162b345c9",
+    "rgbaFingerprint": "830fb91b95832ef1"
+  },
+  {
+    "icon": "cbi_buttonback",
+    "texture": "ad80beaadb1807e2",
+    "glyph": "share",
+    "width": 45,
+    "height": 45,
+    "bgraFingerprint": "32f243dbe3fc302e",
+    "rgbaFingerprint": "6bdfbcd22c4bc32a"
+  },
+  {
+    "icon": "cbi_buttondp",
+    "texture": "7e0a92253f3a3a6e",
+    "glyph": "dpad",
+    "width": 45,
+    "height": 45,
+    "bgraFingerprint": "8a4ac644761efd31",
+    "rgbaFingerprint": "6cde0e097530ba8d"
+  },
+  {
+    "icon": "cbi_buttondp_d",
+    "texture": "d35c8254c74d8003",
+    "glyph": "dpad-down",
+    "width": 45,
+    "height": 45,
+    "bgraFingerprint": "2e85b6b25eaa5662",
+    "rgbaFingerprint": "7123b6332646c18a"
+  },
+  {
+    "icon": "cbi_buttondp_l",
+    "texture": "237c39ecd2726a03",
+    "glyph": "dpad-left",
+    "width": 45,
+    "height": 45,
+    "bgraFingerprint": "3df1743f4b93898a",
+    "rgbaFingerprint": "fcdcf8d46403fff2"
+  },
+  {
+    "icon": "cbi_buttondp_lr",
+    "texture": "30f1ab007f2a30df",
+    "glyph": "dpad-horizontal",
+    "width": 45,
+    "height": 45,
+    "bgraFingerprint": "39d8336b473f62a3",
+    "rgbaFingerprint": "53501827dce9a53f"
+  },
+  {
+    "icon": "cbi_buttondp_r",
+    "texture": "62517b5d959f5bc3",
+    "glyph": "dpad-right",
+    "width": 45,
+    "height": 45,
+    "bgraFingerprint": "c63cbe8850e1a408",
+    "rgbaFingerprint": "6f2f85cdf2858f80"
+  },
+  {
+    "icon": "cbi_buttondp_u",
+    "texture": "bd093f857fec17b6",
+    "glyph": "dpad-up",
+    "width": 45,
+    "height": 45,
+    "bgraFingerprint": "ecd5165f10d81fa7",
+    "rgbaFingerprint": "f8c1f2ab6951b773"
+  },
+  {
+    "icon": "cbi_buttondp_ud",
+    "texture": "c4b12d1a894de6ae",
+    "glyph": "dpad-vertical",
+    "width": 45,
+    "height": 45,
+    "bgraFingerprint": "6d05566be9c3666c",
+    "rgbaFingerprint": "eec25d08999a558c"
+  },
+  {
+    "icon": "cbi_buttonlb",
+    "texture": "d3470a0c9cea4818",
+    "glyph": "l1",
+    "width": 45,
+    "height": 45,
+    "bgraFingerprint": "762c6404bff67e70",
+    "rgbaFingerprint": "8957b9fef6390354"
+  },
+  {
+    "icon": "cbi_buttonlt",
+    "texture": "85e20f857918291d",
+    "glyph": "l2",
+    "width": 45,
+    "height": 45,
+    "bgraFingerprint": "d57e1127556ff2b4",
+    "rgbaFingerprint": "0a775a970387f8c0"
+  },
+  {
+    "icon": "cbi_buttonrb",
+    "texture": "4eb8f5e7f2d8872b",
+    "glyph": "r1",
+    "width": 45,
+    "height": 45,
+    "bgraFingerprint": "d98baedd84f9c3dd",
+    "rgbaFingerprint": "59cd0b8a4f46399d"
+  },
+  {
+    "icon": "cbi_buttonrt",
+    "texture": "0693607fbb493d3d",
+    "glyph": "r2",
+    "width": 45,
+    "height": 45,
+    "bgraFingerprint": "cc591314a5e472d3",
+    "rgbaFingerprint": "ac58a123b1026daf"
+  },
+  {
+    "icon": "cbi_buttonstart",
+    "texture": "b63ba6a9d36c6957",
+    "glyph": "options",
+    "width": 45,
+    "height": 45,
+    "bgraFingerprint": "d3282554a697f52b",
+    "rgbaFingerprint": "1733f47881aeefc3"
+  },
+  {
+    "icon": "cbi_buttonx",
+    "texture": "22169a8c9e2c6844",
+    "glyph": "square",
+    "width": 45,
+    "height": 45,
+    "bgraFingerprint": "a50ff0bfea56b7eb",
+    "rgbaFingerprint": "626fa1f62dc9a6e7"
+  },
+  {
+    "icon": "cbi_buttony",
+    "texture": "71d486543e649a3d",
+    "glyph": "triangle",
+    "width": 45,
+    "height": 45,
+    "bgraFingerprint": "788103c5bfac1466",
+    "rgbaFingerprint": "a6f97ec7cb84e616"
+  },
+  {
+    "icon": "cbi_lstick",
+    "texture": "a197deb1fba968d9",
+    "glyph": "l3",
+    "width": 45,
+    "height": 45,
+    "bgraFingerprint": "b9d3e0f5a9373f29",
+    "rgbaFingerprint": "219ae646e6c1e079"
+  },
+  {
+    "icon": "cbi_lsticktop",
+    "texture": "a197deb1fba968d9",
+    "glyph": "l3",
+    "width": 45,
+    "height": 45,
+    "bgraFingerprint": "b9d3e0f5a9373f29",
+    "rgbaFingerprint": "219ae646e6c1e079"
+  },
+  {
+    "icon": "cbi_lstick_down",
+    "texture": "4dac8f6c2044a652",
+    "glyph": "left-stick-down",
+    "width": 45,
+    "height": 45,
+    "bgraFingerprint": "4b7aa14bddab720d",
+    "rgbaFingerprint": "23fd7f3171426851"
+  },
+  {
+    "icon": "cbi_lstick_left",
+    "texture": "089af9c37b40b380",
+    "glyph": "left-stick-left",
+    "width": 45,
+    "height": 45,
+    "bgraFingerprint": "2072dc88ae44174f",
+    "rgbaFingerprint": "8c71149064da8697"
+  },
+  {
+    "icon": "cbi_lstick_right",
+    "texture": "329db508f94cc08c",
+    "glyph": "left-stick-right",
+    "width": 45,
+    "height": 45,
+    "bgraFingerprint": "1a1d82b2b71a3197",
+    "rgbaFingerprint": "8f38cfb6316f5f2b"
+  },
+  {
+    "icon": "cbi_lstick_right_left",
+    "texture": "c9e1e2d921684c7b",
+    "glyph": "left-stick-horizontal",
+    "width": 45,
+    "height": 45,
+    "bgraFingerprint": "a4388b23f6cd4ce1",
+    "rgbaFingerprint": "2d123a7c4e5a0d2d"
+  },
+  {
+    "icon": "cbi_lstick_up",
+    "texture": "aa0d8d83a3120ed0",
+    "glyph": "left-stick-up",
+    "width": 45,
+    "height": 45,
+    "bgraFingerprint": "793c3193a82f5d50",
+    "rgbaFingerprint": "dad3162a224da758"
+  },
+  {
+    "icon": "cbi_rstick",
+    "texture": "ecfd124a51773395",
+    "glyph": "r3",
+    "width": 45,
+    "height": 45,
+    "bgraFingerprint": "b3891f98f2fc5701",
+    "rgbaFingerprint": "30d36df45cad9321"
+  },
+  {
+    "icon": "cbi_rsticktop",
+    "texture": "ecfd124a51773395",
+    "glyph": "r3",
+    "width": 45,
+    "height": 45,
+    "bgraFingerprint": "b3891f98f2fc5701",
+    "rgbaFingerprint": "30d36df45cad9321"
+  },
+  {
+    "icon": "cbi_rstick_down",
+    "texture": "349910576cb1b1ca",
+    "glyph": "right-stick-down",
+    "width": 45,
+    "height": 45,
+    "bgraFingerprint": "7951b70609029744",
+    "rgbaFingerprint": "8191cf4d0292cb54"
+  },
+  {
+    "icon": "cbi_rstick_left",
+    "texture": "7d163743fedc4774",
+    "glyph": "right-stick-left",
+    "width": 45,
+    "height": 45,
+    "bgraFingerprint": "b5755b2a31f9cf6d",
+    "rgbaFingerprint": "a2342dc3a4225851"
+  },
+  {
+    "icon": "cbi_rstick_right",
+    "texture": "296cb3e0a83ae70e",
+    "glyph": "right-stick-right",
+    "width": 45,
+    "height": 45,
+    "bgraFingerprint": "5995c3347b938b6a",
+    "rgbaFingerprint": "78ed67702ea01826"
+  },
+  {
+    "icon": "cbi_rstick_right_left",
+    "texture": "074c093c5ab6f6a0",
+    "glyph": "right-stick-horizontal",
+    "width": 45,
+    "height": 45,
+    "bgraFingerprint": "914129ec9f2f90bb",
+    "rgbaFingerprint": "5cc43106d5b4791f"
+  },
+  {
+    "icon": "cbi_rstick_up",
+    "texture": "b872357d686ea3f0",
+    "glyph": "right-stick-up",
+    "width": 45,
+    "height": 45,
+    "bgraFingerprint": "72a98d52175c1375",
+    "rgbaFingerprint": "7b6a6239c1926771"
+  }
+]

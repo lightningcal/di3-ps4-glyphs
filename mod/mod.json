@@ -1,0 +1,11 @@
+{
+  "manifestVersion": 1,
+  "id": "local.di3-ps4-glyphs",
+  "name": "PlayStation 4 Controller Glyphs",
+  "version": "0.1.5",
+  "minLoaderVersion": "1.1.0",
+  "entry": "main.lua",
+  "authors": [
+    "Contributors"
+  ]
+}

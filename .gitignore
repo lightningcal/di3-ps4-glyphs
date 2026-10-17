@@ -1,0 +1,5 @@
+build/
+dist/
+research/
+__pycache__/
+*.user

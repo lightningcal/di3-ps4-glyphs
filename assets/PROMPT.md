@@ -1,0 +1,11 @@
+# Image generation record
+
+Tool: built-in imagegen (transparent background).
+Source: `ps4-glyph-atlas.png`. Actual output: 1254 x 1254 RGBA.
+
+Prompt:
+
+Use case: ui-mockup. Asset type: production sprite atlas of PlayStation 4 DualShock controller prompt glyphs for a Disney Infinity 3.0 mod. Generate ONE square transparent PNG sprite sheet, exactly 1536 by 1536 pixels, 6 columns by 6 rows, each cell exactly 256 pixels square, every icon centered at cell center and contained within central 192 by 192 pixels. Uniform flat crisp anti-aliased UI art, charcoal black button faces, thin white outlines, white labels, subtle gray rims, no lighting or drop shadow. Transparent empty pixels between icons. No grid, headings, cell labels, watermark, controller pictures, explanatory text. Face buttons have traditional colors: cross pale blue, circle coral red, square pink, triangle green. All others white. Row 1 left-to-right: blue cross face button; red circle face button; pink square face button; green triangle face button; rounded shoulder button labeled L1; rounded shoulder button labeled R1. Row 2: trigger shape labeled L2; trigger shape labeled R2; narrow pill labeled OPTIONS; narrow pill labeled SHARE; left stick with L3 label; right stick with R3 label. Row 3: d-pad with up segment highlighted white; d-pad down highlighted; d-pad left highlighted; d-pad right highlighted; d-pad up and down highlighted; d-pad left and right highlighted. Row 4: full four-way d-pad white; left analog stick labeled L; right analog stick labeled R; PS button with simple PS text; touchpad rectangular dotted panel; left stick top view labeled L3. Row 5: left analog stick with arrow up; left stick arrow down; left stick arrow left; left stick arrow right; left stick bidirectional vertical arrows; left stick bidirectional horizontal arrows. Row 6: right analog stick arrow up; right stick arrow down; right stick arrow left; right stick arrow right; right stick bidirectional horizontal arrows; right stick top view labeled R3. Follow exact cell order. These 36 cells are one cohesive atlas asset. Keep artwork maximally readable downscaled to 32 pixels.
+
+The actual output dimensions and spacing were measured rather than assumed.
+Crop rectangles isolate all 36 glyphs with padding; exported images are 209 x 209.
