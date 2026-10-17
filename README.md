@@ -1,4 +1,4 @@
-# PlayStation 4 Controller Glyphs
+# PlayStation 4 Controller Glyphs for Disney Infinity 3.0: Gold Edition
 
 Standalone CrabeLoader mod for **Disney Infinity 3.0: Gold Edition (Steam, Win32)**.
 Change **Options > Controller glyphs** between **Xbox** and **PlayStation 4**. The
@@ -6,26 +6,56 @@ row appears immediately below **Controller bindings**, with the matching control
 icon. The selection is saved immediately and changes drawing within about 50 ms. Original
 Xbox textures stay intact, so switching back does not require a restart.
 
+## Screenshots
+
+**Options menu.** The controller icon and current glyph style appear directly below
+Controller bindings. Select the row to switch between Xbox and PlayStation 4.
+
+![Options menu with Controller glyphs: PlayStation 4 selected and Cross/Circle button prompts](docs/screenshots/options-menu.png)
+
+**Skill tree.** PlayStation L1/R1 tab prompts and Square, Triangle, and Circle
+button prompts in Han Solo's skill menu.
+
+![Han Solo skill tree with PlayStation shoulder and face-button glyphs](docs/screenshots/skill-tree.png)
+
+**Gameplay prompts.** Square for Pick Up and R2 for Shoot.
+
+![Han Solo next to an object with the PlayStation Square Pick Up prompt](docs/screenshots/gameplay-pick-up.png)
+
+![Han Solo holding a blaster with the PlayStation R2 Shoot prompt](docs/screenshots/gameplay-shoot.png)
+
 ## Install
 
-Install CrabeLoader **1.1.0** first, including its native plugin support. Extract
-`dist/di3-ps4-glyphs-0.1.5.zip` into the game directory. The result must be:
+1. Close the game. Install **[CrabeLoader v1.1.0 or newer](https://github.com/LucasLhomme/CrabeLoader/releases/latest)** using its `CrabeInstaller.exe`. The v1.1.0 installer places `dinput8.dll` and `CrabeLoader.asi` beside `DisneyInfinity3.exe`. If you already use another ASI loader, follow [CrabeLoader's installation instructions](https://github.com/LucasLhomme/CrabeLoader/blob/v1.1.0/README.md#installation).
+2. Download **`di3-ps4-glyphs-0.1.5.zip`** from this mod's **[GitHub release](https://github.com/lightningcal/di3-ps4-glyphs/releases/tag/v0.1.5)**. Choose the named distribution ZIP under **Assets**; GitHub's automatic **Source code** downloads do not include the compiled plugin.
+3. Extract the ZIP **into the game folder containing `DisneyInfinity3.exe`**, merging the included `mods` folder. In Steam, use **Manage > Browse local files** to locate the game. Do not extract it into an existing `mods` folder, which would produce `mods/mods`.
+4. Confirm the resulting layout:
 
-```text
-mods/ps4-glyphs/
-  mod.json
-  main.lua
-  PS4Glyphs.asi
-  glyphs/*.png
-```
+   ```text
+   Disney Infinity 3.0 Gold Edition/
+     DisneyInfinity3.exe
+     dinput8.dll
+     CrabeLoader.asi
+     mods/
+       ps4-glyphs/
+         mod.json
+         main.lua
+         PS4Glyphs.asi
+         glyphs/*.png
+   ```
 
-Restart once after installing or updating the native plugin/artwork. Open the
-game's Options menu. Select **Controller glyphs: Xbox** to switch to
-**Controller glyphs: PlayStation 4**; select again to switch back. This setting
-is also registered on the in-game Options menu. Xbox is the default on first use.
-A throttled compatibility check also repairs menus built before the loader installs
-its settings wrapper. It rebuilds only when this mod's row is missing.
-The preference lives in `mods/ps4-glyphs/settings.json`, preserved by the installer.
+5. Launch the game and open **Options**. Select **Controller glyphs: Xbox**, directly below **Controller bindings**, to switch to **PlayStation 4**. Select the same row again to switch back. CrabeMenu is optional.
+
+Native ASI plugins must be enabled. If you previously disabled them, set `asi = true`
+under `[plugins]` in `Crabe/crabe.toml` and ensure `PS4Glyphs.asi` is absent from the
+`skip` list. Restart the game after installing or updating the native plugin or artwork;
+F4 reloads Lua only. See [CrabeLoader's native plugin guide](https://github.com/LucasLhomme/CrabeLoader/blob/v1.1.0/docs/guides/asi_plugins.md).
+
+The option is also registered on the in-game Options menu. Xbox is the default on
+first use. The preference is saved in `mods/ps4-glyphs/settings.json`. When updating,
+close the game and extract the new ZIP over the old installation; the distribution
+contains no settings file, so your preference is preserved. A standalone copy of
+these steps is included as [INSTALL.md](INSTALL.md).
 
 Remove only `mods/ps4-glyphs` while the game is closed to uninstall. No original
 game archive, executable, controller mapping, CrabeLoader binary, or other mod is
