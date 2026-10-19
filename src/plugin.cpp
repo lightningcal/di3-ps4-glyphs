@@ -3,6 +3,7 @@
 #include <wincodec.h>
 #include <wrl/client.h>
 #include <array>
+#include <cstddef>
 #include <atomic>
 #include <filesystem>
 #include <string>
@@ -188,7 +189,8 @@ BOOL APIENTRY DllMain(HMODULE handle, DWORD reason, LPVOID)
 }
 extern "C" __declspec(dllexport) void __cdecl CrabePluginInit(const CrabePluginApi* host)
 {
-    if (!host || host->size < sizeof(CrabePluginApi) || host->version != CRABE_PLUGIN_API_VERSION) return;
+    // Newer loaders append to the table; accept any version that has every v1 function this plugin calls.
+    if (!host || host->version < 1 || host->size < offsetof(CrabePluginApi, onPresent)) return;
     api = host;
     api->setValue(api,"di3.ps4.ready","0");
     try {

@@ -26,7 +26,7 @@ int wmain(int argc,wchar_t** argv)
     check(argc==3,"Usage: test_renderer plugin.asi original-glyph.tbody");
     HMODULE plugin=LoadLibraryW(std::filesystem::absolute(argv[1]).c_str());check(plugin!=nullptr,"Load plugin failed");
     auto init=reinterpret_cast<CrabePluginInitFn>(GetProcAddress(plugin,CRABE_PLUGIN_INIT_SYMBOL));check(init!=nullptr,"Missing SDK entry point");
-    CrabePluginApi host{sizeof(CrabePluginApi),1,"1.1.0","PS4Glyphs.asi",logLine,install,remove,runLua,setValue,getValue};
+    CrabePluginApi host{sizeof(CrabePluginApi),CRABE_PLUGIN_API_VERSION,"1.1.0","PS4Glyphs.asi",logLine,install,remove,runLua,setValue,getValue};
     init(&host);check(values["di3.ps4.ready"]=="1","Renderer initialization failed");
     std::ifstream file(argv[2],std::ios::binary);
     std::vector<unsigned char> bytes((std::istreambuf_iterator<char>(file)),{});

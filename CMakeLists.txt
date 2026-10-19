@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.21)
-project(DI3PS4Glyphs VERSION 0.1.5 LANGUAGES CXX)
+project(DI3PS4Glyphs VERSION 0.1.6 LANGUAGES CXX)
 if(NOT WIN32 OR NOT CMAKE_SIZEOF_VOID_P EQUAL 4)
     message(FATAL_ERROR "Build for Windows Win32 (x86), not x64")
 endif()
