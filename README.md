@@ -27,7 +27,7 @@ button prompts in Han Solo's skill menu.
 ## Install
 
 1. Close the game. Install **[CrabeLoader v1.1.0 or newer](https://github.com/LucasLhomme/CrabeLoader/releases/latest)** using its `CrabeInstaller.exe`. The v1.1.0 installer places `dinput8.dll` and `CrabeLoader.asi` beside `DisneyInfinity3.exe`. If you already use another ASI loader, follow [CrabeLoader's installation instructions](https://github.com/LucasLhomme/CrabeLoader/blob/v1.1.0/README.md#installation).
-2. Download **`di3-ps4-glyphs-0.1.5.zip`** from this mod's **[GitHub release](https://github.com/lightningcal/di3-ps4-glyphs/releases/tag/v0.1.5)**. Choose the named distribution ZIP under **Assets**; GitHub's automatic **Source code** downloads do not include the compiled plugin.
+2. Download **`di3-ps4-glyphs-0.1.6.zip`** from this mod's **[GitHub release](https://github.com/lightningcal/di3-ps4-glyphs/releases/tag/v0.1.6)**. Choose the named distribution ZIP under **Assets**; GitHub's automatic **Source code** downloads do not include the compiled plugin.
 3. Extract the ZIP **into the game folder containing `DisneyInfinity3.exe`**, merging the included `mods` folder. In Steam, use **Manage > Browse local files** to locate the game. Do not extract it into an existing `mods` folder, which would produce `mods/mods`.
 4. Confirm the resulting layout:
 
@@ -120,7 +120,8 @@ rectangles. `tools/split-atlas.ps1` extracts and centers each glyph without clip
 
 Version **0.1.2** also fixes a stale option label caused by inherited settings
 rows: it updates the displayed row. Version **0.1.4** preserved focus when changing the setting. Version **0.1.5**
-uses the native icon-capable menu button because LR_Toggle has no icon clip.
+uses the native icon-capable menu button because LR_Toggle has no icon clip. Version **0.1.6**
+starts on CrabeLoader builds that pass plugin API v2; earlier versions stayed off silently.
 Select switches the choice and updates just that button, preserving focus.
 Version 0.1.1 fixed the renderer's missing deferred-context hooks.
 The GPU test draws and reads back actual pixels for both rendering context types,

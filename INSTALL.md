@@ -1,4 +1,4 @@
-# Install PlayStation 4 Controller Glyphs v0.1.5
+# Install PlayStation 4 Controller Glyphs v0.1.6
 
 Requires Disney Infinity 3.0: Gold Edition (Steam, Windows/x86) and CrabeLoader
 v1.1.0 or newer with native ASI plugin support. A working controller/input setup
@@ -9,8 +9,8 @@ is still required; this mod changes displayed button glyphs.
    https://github.com/LucasLhomme/CrabeLoader/releases/latest
    For manual installation or another existing ASI loader, follow:
    https://github.com/LucasLhomme/CrabeLoader/blob/v1.1.0/README.md#installation
-3. Download di3-ps4-glyphs-0.1.5.zip from:
-   https://github.com/lightningcal/di3-ps4-glyphs/releases/tag/v0.1.5
+3. Download di3-ps4-glyphs-0.1.6.zip from:
+   https://github.com/lightningcal/di3-ps4-glyphs/releases/tag/v0.1.6
    Use the named ZIP under Assets, not the automatic Source code archives.
 4. Extract the ZIP into the game folder containing DisneyInfinity3.exe, merging
    the included mods folder. The plugin must end up at:

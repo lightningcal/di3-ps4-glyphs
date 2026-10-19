@@ -90,3 +90,12 @@ PlayStation 4 to Xbox and back, updating bridge values 1 -> 0 -> 1 while
 selectedIndex remained 5. The saved preference was restored to PlayStation 4.
 User-provided screenshots in the README confirm the controller icon, current
 choice label, skill-menu glyphs, and gameplay prompts.
+
+## 0.1.6 - CrabeLoader plugin API v2
+
+Newer CrabeLoader builds pass plugin API v2, which appends onPresent and
+onBeforeResize to the plugin table. CrabePluginInit required exactly v1, so the
+native renderer returned without logging, di3.ps4.ready stayed 0, and the
+option could not switch glyphs. The plugin now accepts any version >= 1 whose
+table contains every v1 function. The renderer test passes the current API
+version; all three CTest suites pass. Not yet re-checked in a live game.
